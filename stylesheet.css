@@ -1,0 +1,272 @@
+body, html {
+    height: 100%;
+
+}
+
+.hero-wrapper {
+position: relative;
+}
+
+/* .hero-bg-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("./assets/5reasons-banner.png");
+    min-height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+} */
+
+.hero-wrapper{
+    max-width: 100%;
+}
+
+
+.highlight {
+    text-shadow: 4px 0px 20px #023660;
+}
+
+.highlight-green {
+background-color: #c3dbc5;
+color: #269b2c;
+}
+
+.hero-header {
+    color: white;
+    display: inline;
+    bottom: 80px;
+    text-align: start;
+    background-color: #023660;
+}
+
+.we-made-img {
+    background-image:url("./assets/handwithbox.jpg");
+    height: 30vh;  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+.cs-box-shadow {
+    box-shadow:10px 10px white;
+}
+.cs-text-color{
+    color:#023660;
+    text-shadow: 2px 2px 8px #023660;
+}
+
+
+.cs-text-shadow {
+    text-shadow: 2px 10px 40px white;
+}
+
+.cs-bg-color{
+    background-color:#023660;
+}
+
+.green-text-shadow{
+    text-shadow: 2px 2px 8px #0b5e15;
+}
+
+.counter {
+    background-color: transparent !important;
+}
+
+.card-header {
+    background-color: transparent !important;
+     
+}
+
+.btn-transperent {
+background-color: transparent !important; 
+}
+
+.shopBtns {
+    height: 50px;
+    width: 50px;
+    background-color:transparent;
+    border: 2px solid black;
+
+}
+
+.box-cs {
+    border: solid white 1px;
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 200px;
+    min-width: 100px;
+    box-shadow:5px 5px rgba(255, 255, 255, .3);
+    border-radius: 10%;
+}
+
+.cs-gr-color {
+     
+    background: linear-gradient(12deg, #023660, #d2dde6, #023660);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 23s ease infinite;
+    -moz-animation: AnimationName 23s ease infinite;
+    animation: AnimationName 23s ease infinite;
+}
+
+.cs-bg-color-2 {
+    background: rgb(7,4,64);
+    background: linear-gradient(45deg, rgba(7,4,64,1) 0%, rgba(2,54,96,1) 35%, rgba(192,205,217,1) 100%);
+}
+
+#checkout {
+    height: 100vh;
+}
+
+#product-img{
+    max-height: 400px;
+    max-width: 400px;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:94% 0%}
+    50%{background-position:7% 100%}
+    100%{background-position:94% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:94% 0%}
+    50%{background-position:7% 100%}
+    100%{background-position:94% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:94% 0%}
+    50%{background-position:7% 100%}
+    100%{background-position:94% 0%}
+
+}
+
+.sticky {
+position: sticky;
+top: 95vh;
+position: -webkit-sticky;
+z-index: 1;
+
+}
+
+.test {
+    height: 40vh;
+}
+
+.filler {
+    background: url("./assets/2hands.jpg") center/contain no-repeat fixed;
+}
+
+.title-underline {
+    width: 100px;
+    height: 3px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.card {
+    border: none;
+}
+
+/* Counter Design Start */
+.counter
+{
+    background-color: #eaecf0;
+    text-align: center;
+}
+.employees,.customer,.design,.order
+{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.counter-count
+{
+    font-size: 18px;
+    background-color: #023660;
+    border-radius: 50%;
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    line-height: 92px;
+    width: 92px;
+    height: 92px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: inline-block;
+}
+
+.employee-p,.customer-p,.order-p,.design-p
+{
+    font-size: 24px;
+    color: #000000;
+    line-height: 34px;
+}
+
+.gold {
+    color: #FFD700;
+}
+/* Counter Design End */
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #023660;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #023660;
+}
+
+/* certificate design start */
+@media (max-width: 992px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 992px) {
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(16.6%);
+    }
+    
+    .carousel-inner .carousel-item-left.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-16.6%);
+    }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+    transform: translateX(0);
+}
+/* certificate design end */
+
+@media only screen and (max-width: 600px) {
+.sticky {
+    top: 100vh;
+}
+}
